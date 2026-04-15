@@ -1,10 +1,11 @@
 [project]
-name = "upside-my-app-01"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
 dependencies = [
+    "fastapi",
+    "uvicorn",
+]
+
+[tool.uv]
+dev-dependencies = [
     "pytest==9.0.3",
     "pytest-asyncio>=0.26",
 ]
